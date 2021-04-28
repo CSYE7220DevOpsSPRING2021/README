@@ -15,4 +15,5 @@
 ## How to run this project:
 1. `terraform init`
 2. filled all variables
-3. `terraform apply`
+3. `aws configuration` to set aws-cli(please set default region to us-west-2)
+4. `terraform apply` (we only test us-west-2, not sure other region will work)
